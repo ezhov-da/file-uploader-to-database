@@ -2,15 +2,15 @@ package ru.ezhov.file.uploader.utils;
 
 import java.sql.Connection;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 import ru.ezhov.file.uploader.groovy.JdbcSettingsModel;
 
-public class JdbcUrlLoaderTest {
-    public JdbcUrlLoaderTest() {
-    }
+@Ignore
+public class JdbcUrlLoaderIT {
 
     @Test
     public void testGetConnection() throws Exception {

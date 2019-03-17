@@ -10,13 +10,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.test.skip>true</maven.test.skip>
 
         <directory.extended.dll>dll</directory.extended.dll>
-        <directory.jdbc.jars>jdbc_jars</directory.jdbc.jars>
+        <directory.jdbc.jars>jdbc</directory.jdbc.jars>
         <directory.jars>lib</directory.jars>
     </properties>
 
-    <name>загрузка данных из excel</name>
+    <description>загрузка данных из excel</description>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
